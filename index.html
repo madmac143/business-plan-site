@@ -2,99 +2,156 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Business Plan Consulting</title>
+    <title>Mad Business Plans</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: #222222;
+            background: #ffffff;
+        }
+
+        nav {
+            background: #1A2A4F;
+            padding: 15px 30px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 25px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: #1A2A4F;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 80px 20px;
+            background: #F5F5F5;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .btn {
+            background: #D4A017;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #1A2A4F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <nav style="background:#f4f4f4; padding:15px;">
-        <a href="index.html" style="margin-right:20px;">Home</a>
-        <a href="services.html" style="margin-right:20px;">Services</a>
-        <a href="portfolio.html" style="margin-right:20px;">Portfolio</a>
+    <!-- NAV -->
+    <nav>
+        <a href="index.html">Mad Business Plans</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
     </nav>
 
-    <!-- HERO SECTION -->
-    <section style="padding:80px; background:#f9f9f9; text-align:center;">
-        <h1 style="font-size:36px; margin-bottom:20px;">
-            Business Plan Consulting for New Entrepreneurs
-        </h1>
-
-        <p style="font-size:20px; max-width:700px; margin:0 auto 30px;">
-            I help new business owners turn ideas into lender-ready, investor-ready, and grant-ready business plans with clarity, structure, and confidence.
-        </p>
-
-        <a href="contact.html" 
-           style="background:#007bff; color:white; padding:12px 25px; 
-                  text-decoration:none; border-radius:5px; font-size:18px;">
-            Get Started
-        </a>
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Business Plan Consulting for New Entrepreneurs</h1>
+        <p>I help new business owners turn ideas into lender-ready, investor-ready, and grant-ready business plans with clarity, structure, and confidence.</p>
+        <a class="btn" href="contact.html">Get Started</a>
     </section>
 
-    <!-- WHAT I DO SECTION -->
-    <section style="padding:60px; text-align:center;">
-        <h2 style="font-size:28px; margin-bottom:30px;">What I Do</h2>
+    <!-- WHAT I DO -->
+    <section>
+        <h2>What I Do</h2>
+        <div class="section-content">
+            <h3>Clarity & Structure</h3>
+            <p>I turn messy ideas into clear, lender-ready business plans with logical flow and strong positioning.</p>
 
-        <div style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap;">
+            <h3>Financial Modeling</h3>
+            <p>I build realistic startup costs, revenue projections, and break-even analysis using clean, simple models.</p>
 
-            <div style="max-width:300px;">
-                <h3>Clarity & Structure</h3>
-                <p>I turn messy ideas into clear, lender-ready business plans with logical flow and strong positioning.</p>
-            </div>
-
-            <div style="max-width:300px;">
-                <h3>Financial Modeling</h3>
-                <p>I build realistic startup costs, revenue projections, and break-even analysis using clean, simple models.</p>
-            </div>
-
-            <div style="max-width:300px;">
-                <h3>Funding Preparation</h3>
-                <p>I help entrepreneurs prepare plans that banks, investors, and grant reviewers actually trust.</p>
-            </div>
-
+            <h3>Funding Preparation</h3>
+            <p>I help entrepreneurs prepare plans that banks, investors, and grant reviewers actually trust.</p>
         </div>
     </section>
 
-    <!-- WHO I HELP SECTION -->
-    <section style="padding:60px; background:#fafafa; text-align:center;">
-        <h2 style="font-size:28px; margin-bottom:30px;">Who I Help</h2>
+    <!-- WHO I HELP -->
+    <section style="background:#F5F5F5;">
+        <h2>Who I Help</h2>
+        <div class="section-content">
+            <p>I work with new and early-stage entrepreneurs who need clarity, structure, and confidence in their business plans.</p>
 
-        <div style="max-width:800px; margin:0 auto; font-size:18px; line-height:1.6;">
-            <p>I work with new and early-stage entrepreneurs who need clarity, structure, and confidence in their business plans. My clients include:</p>
-
-            <ul style="text-align:left; max-width:600px; margin:20px auto;">
-                <li>First-time business owners who don’t know where to start</li>
+            <ul>
+                <li>First-time business owners</li>
                 <li>Entrepreneurs applying for loans, grants, or investor funding</li>
                 <li>People with strong ideas but difficulty organizing them</li>
                 <li>Founders who need a professional plan to move forward</li>
-                <li>Small business owners who want to refine or update an existing plan</li>
+                <li>Small business owners updating an existing plan</li>
             </ul>
-
-            <p>Whether you're building a trucking business, a cleaning service, a food truck, or something entirely new, I help you turn your idea into a clear, actionable plan.</p>
         </div>
     </section>
 
-    <!-- WHY CHOOSE ME SECTION -->
-    <section style="padding:60px; text-align:center;">
-        <h2 style="font-size:28px; margin-bottom:30px;">Why Choose Me</h2>
+    <!-- WHY CHOOSE ME -->
+    <section>
+        <h2>Why Choose Me</h2>
+        <div class="section-content">
+            <p>I bring a unique blend of clarity, structure, and operational logic to every business plan I create.</p>
 
-        <div style="max-width:900px; margin:0 auto; font-size:18px; line-height:1.6;">
-            <p>I bring a unique blend of clarity, structure, and operational logic to every business plan I create. My approach is built on:</p>
-
-            <ul style="text-align:left; max-width:700px; margin:20px auto;">
-                <li><strong>Deep understanding of new entrepreneurs:</strong> I know how overwhelming the early stages can feel, and I help simplify the entire process.</li>
-                <li><strong>Step-by-step structure:</strong> I break down complex ideas into clean, logical sections that lenders and investors can easily understand.</li>
-                <li><strong>Realistic financials:</strong> I build projections that make sense — not inflated numbers that fall apart under scrutiny.</li>
-                <li><strong>Clear communication:</strong> I write in plain English, making your plan easy to read, easy to follow, and easy to trust.</li>
-                <li><strong>Tailored guidance:</strong> Every plan is customized to your business model, your goals, and your funding needs.</li>
+            <ul>
+                <li><strong>Deep understanding of new entrepreneurs</strong></li>
+                <li><strong>Step-by-step structure</strong></li>
+                <li><strong>Realistic financials</strong></li>
+                <li><strong>Clear communication</strong></li>
+                <li><strong>Tailored guidance</strong></li>
             </ul>
-
-            <p>My goal is simple: to help you move forward with confidence, clarity, and a plan that actually works.</p>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer style="background:#f4f4f4; padding:20px; text-align:center; margin-top:40px;">
-        <p style="margin:0; font-size:14px;">© 2026 Business Plan Consulting. All rights reserved.</p>
+    <footer>
+        © 2026 Mad Business Plans. All rights reserved.
     </footer>
 
 </body>
